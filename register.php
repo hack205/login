@@ -1,7 +1,7 @@
 <?php
 session_start();
 //connect to database
-$db=mysqli_connect("localhost","root","","mysite");
+$db=mysqli_connect("localhost","francisco","francisco","mysite");
 if(isset($_POST['register_btn']))
 {
     $username=mysqli_real_escape_string($db,$_POST['username']);

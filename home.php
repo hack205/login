@@ -2,7 +2,7 @@
 session_start();
 
 //connect to database
-$db=mysqli_connect("localhost","root","","mysite");
+$db=mysqli_connect("localhost","francisco","francsico","mysite");
 
 
 ?>
